@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "postinstall": "ng build"
   },
-  "proxy":"http://localhost:5005/api",
+  "proxy":"http://0.0.0.0:5005/api",
   "private": true,
   "dependencies": {
     "@angular/animations": "^7.2.0",
