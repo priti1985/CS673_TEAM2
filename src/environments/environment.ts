@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  API_URL: 'http://localhost:5005/api'
+//   API_URL: 'http://localhost:5005/api'
+  API_URL: 'https://secure-hamlet-12892.herokuapp.com/api/'
 };
 
 /*
