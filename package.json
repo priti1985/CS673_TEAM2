@@ -8,9 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build"
+    "postinstall": "ng build --prod --base-href=/pmp-frontend/"
   },
-  "proxy":"http://0.0.0.0:5005/api",
   "private": true,
   "dependencies": {
     "@angular/animations": "^7.2.0",
